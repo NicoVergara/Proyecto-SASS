@@ -8,7 +8,7 @@
   position: relative;
   overflow: hidden; }
 
-.pg-cont {
+.pg-about {
   padding-top: 120px;
   padding-bottom: 120px; }
 
@@ -43,11 +43,32 @@
 
 /* SERVICES
  ========================================================================== */
-/* PLAINING
+.services {
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: hidden; }
+
+.pg-serv {
+  padding-top: 130px;
+  padding-bottom: 130px; }
+
+/* WORK PROCESS
  ========================================================================== */
+.pt-work {
+  padding-top: 70px;
+  padding-bottom: 70px; }
+
 /* CONTACT
  ========================================================================== */
+.pg-contact {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 /* FOOTER
  ========================================================================== */
+.pg-footer {
+  padding-top: 50px;
+  padding-bottom: 50px; }
 
 /*# sourceMappingURL=styles.css.map */
