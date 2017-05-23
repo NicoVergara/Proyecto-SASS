@@ -1,119 +1,122 @@
 /* GENERAL
  ========================================================================== */
- body {
-
- }
-
+body {
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #6b6d6f;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100% !important;
+}
 /* NAV
  ========================================================================== */
 
-
- /* ABOUT
+/* ABOUT
   ========================================================================== */
-.about{
+.about {
   width: 100%;
   display: block;
   position: relative;
   overflow: hidden;
 }
 
-.pg-about{
+.pg-about {
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
-.mt-section{
+.mt-section {
   margin-top: 160px;
 }
 
-.mg-title{
+.mg-title {
   margin: 30px 0 40px;
 }
 
-.main-title{
+.main-title {
   font-size: 50px;
   font-weight: 300;
   line-height: 50px;
 }
-
 /* TEAM
  ========================================================================== */
-.member{
+.member {
   text-align: center;
 }
 
-.team-social{
+.team-social {
   padding: 0;
   list-style: none;
   margin: 15px 0 0;
 }
 
-.team-social li{
+.team-social li {
   display: inline-block;
   margin: 0 5px;
   font-size: 14px;
 }
 
-.team-social a{
+.team-social a {
   color: #6b6d6f;
 }
-
 /* SERVICES
  ========================================================================== */
-.services{
+.services {
   width: 100%;
   display: block;
   position: relative;
   overflow: hidden;
 }
 
-.pg-serv{
+.pg-serv {
   padding-top: 130px;
   padding-bottom: 130px;
 }
 
-.title-content{
+.title-content {
   position: relative;
   padding: 10px 10px 10px 55px;
-  margin-bottom: 7px
+  margin-bottom: 7px;
 }
 
-.box-icon{
+.box-icon {
   position: absolute;
   top: 7px;
   left: 0;
   color: #2a2b2f;
   font-size: 36px;
 }
-
 /* WORK PROCESS
  ========================================================================== */
-.work-process{
+.work-process {}
 
-}
-
-.pt-work{
+.pt-work {
   padding-top: 70px;
   padding-bottom: 70px;
 }
-
 /* CONTACT
  ========================================================================== */
-.contact{
+.contact {}
 
-}
-
-.pg-contact{
+.pg-contact {
   padding-top: 50px;
   padding-bottom: 50px;
 }
 
-.ci-content{
+.ci-content {
   position: relative;
   padding-left: 65px;
 }
 
-.ci-icon{
+.ci-icon {
   position: absolute;
   top: 25px;
   left: 0;
@@ -121,11 +124,11 @@
   font-size: 35px;
 }
 
-.ci-text{
-  padding: 16px 0 18px 0;
+.ci-text {
+  padding: 16px 0 18px;
 }
 
-.ci-text h3{
+.ci-text h3 {
   color: #2a2b2f;
   font-weight: normal;
   font-size: 18px;
@@ -133,23 +136,15 @@
   margin: 0;
 }
 
-.ci-text p{
+.ci-text p {
   margin: 0;
   font-size: 13px;
 }
-
 /* FOOTER
  ========================================================================== */
- .footer{
+.footer {}
 
- }
-
- .pg-footer{
-   padding-top: 50px;
-   padding-bottom: 50px;
- }
-
- .ci-content{
-  /*position: relative;
-  padding-left: 65px:*/
- }
+.pg-footer {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}

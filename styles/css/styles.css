@@ -1,9 +1,25 @@
 /* GENERAL
  ========================================================================== */
+body {
+  border: 0 none;
+  font-size: 100%;
+  margin: 0;
+  outline: 0 none;
+  padding: 0;
+  vertical-align: baseline;
+  font-size: 14px;
+  line-height: 25px;
+  font-family: 'Open Sans',Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  color: #6b6d6f;
+  background-color: #fff;
+  -webkit-font-smoothing: antialiased !important;
+  -webkit-text-size-adjust: 100% !important; }
+
 /* NAV
  ========================================================================== */
 /* ABOUT
- ========================================================================== */
+  ========================================================================== */
 .about {
   width: 100%;
   display: block;
@@ -91,7 +107,7 @@
   font-size: 35px; }
 
 .ci-text {
-  padding: 16px 0 18px 0; }
+  padding: 16px 0 18px; }
 
 .ci-text h3 {
   color: #2a2b2f;
@@ -109,9 +125,5 @@
 .pg-footer {
   padding-top: 50px;
   padding-bottom: 50px; }
-
-.ci-content {
-  /*position: relative;
-  padding-left: 65px:*/ }
 
 /*# sourceMappingURL=styles.css.map */
