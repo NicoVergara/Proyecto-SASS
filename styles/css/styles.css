@@ -53,6 +53,18 @@
   padding-top: 130px;
   padding-bottom: 130px; }
 
+.title-content {
+  position: relative;
+  padding: 10px 10px 10px 55px;
+  margin-bottom: 7px; }
+
+.box-icon {
+  position: absolute;
+  top: 7px;
+  left: 0;
+  color: #2a2b2f;
+  font-size: 36px; }
+
 /* WORK PROCESS
  ========================================================================== */
 .pt-work {
