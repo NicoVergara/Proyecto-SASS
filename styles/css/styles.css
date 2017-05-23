@@ -1,8 +1,5 @@
 /* GENERAL
  ========================================================================== */
-body {
-  font-family: 'Montserrat',sans-serif; }
-
 /* NAV
  ========================================================================== */
 /* ABOUT
@@ -82,10 +79,39 @@ body {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+.ci-content {
+  position: relative;
+  padding-left: 65px; }
+
+.ci-icon {
+  position: absolute;
+  top: 25px;
+  left: 0;
+  color: #6b6d6f;
+  font-size: 35px; }
+
+.ci-text {
+  padding: 16px 0 18px 0; }
+
+.ci-text h3 {
+  color: #2a2b2f;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 0; }
+
+.ci-text p {
+  margin: 0;
+  font-size: 13px; }
+
 /* FOOTER
  ========================================================================== */
 .pg-footer {
   padding-top: 50px;
   padding-bottom: 50px; }
+
+.ci-content {
+  /*position: relative;
+  padding-left: 65px:*/ }
 
 /*# sourceMappingURL=styles.css.map */
