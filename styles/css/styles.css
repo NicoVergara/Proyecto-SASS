@@ -126,4 +126,23 @@ body {
   padding-top: 50px;
   padding-bottom: 50px; }
 
+.footer-social {
+  padding-bottom: 7px; }
+
+.footer-social a {
+  padding: 9px !important;
+  font-size: 16px;
+  color: #2a2b2f;
+  text-decoration: none; }
+
+.right {
+  float: right; }
+
+.footer-icon {
+  font-size: 13px;
+  color: #6b6d6f; }
+
+.left {
+  float: left; }
+
 /*# sourceMappingURL=styles.css.map */
