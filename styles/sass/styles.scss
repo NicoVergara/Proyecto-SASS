@@ -52,20 +52,21 @@ body {
   text-align: center;
 }
 
-.team-social {
+.team-social{
   padding: 0;
   list-style: none;
   margin: 15px 0 0;
-}
-
-.team-social li {
-  display: inline-block;
-  margin: 0 5px;
-  font-size: 14px;
-}
-
-.team-social a {
-  color: #6b6d6f;
+  li{
+    display: inline-block;
+    margin: 0 5px;
+    font-size: 14px;
+  }
+  a{
+    color: #6b6d6f;
+    &:hover{
+      text-decoration: none;
+    }
+  }
 }
 /* SERVICES
  ========================================================================== */
@@ -94,15 +95,112 @@ body {
   color: #2a2b2f;
   font-size: 36px;
 }
+
+.box{
+  margin-top: 25px;
+}
 /* WORK PROCESS
  ========================================================================== */
-.work-process {
-
-}
-
 .pt-work {
   padding-top: 70px;
   padding-bottom: 70px;
+}
+
+.back-style-cont{
+  background-color: #eeeeee;
+  padding: 100px 0 100px 0;
+}
+
+.work-proc2-cont{
+  margin: 0 auto;
+  max-width: 320px;
+  padding: 45px 20px 20px 98px;
+  position: relative;
+  h3{
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 5px;
+  }
+  .font-montserrat{
+    font-weight: bold;
+  }
+}
+
+.work-proc2-icon-cont{
+  color: #2357ff;
+  font-size: 60px;
+  font-weight: 700;
+  left: 0;
+  line-height: 60px;
+  position: absolute;
+  top: 55px;
+}
+
+.work-proc2-a-cont{
+  margin: 0 auto;
+  max-width: 320px;
+  position: relative;
+  a{
+    color: black;
+  }
+  &:hover, &:focus{
+    color:#2a2b2f;
+  }
+  &:hover .work-proc2-a-text, &:focus .work-proc2-a-text{
+    color: #2a2b2f;
+  }
+  &:hover .work-proc2-a-text, &:focus .work-proc2-a-text{
+    left:30px;
+  -webkit-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  -khtml-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  -moz-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  -ms-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  -o-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+  transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    }
+    &:hover .work-proc2-bg-block, &:focus .work-proc2-bg-block{
+      background: #5bd3be;
+      -webkit-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+      -khtml-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+      -moz-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+      -ms-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+      -o-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+      transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    }
+  .work-proc2-a{
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 50px;
+  }
+  a:hover{
+    text-decoration: none;
+  }
+  .work-proc2-a-text{
+    left: 0;
+    position: absolute;
+    top: 44px;
+    -webkit-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -khtml-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -moz-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -ms-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -o-transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    transition: left 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+   }
+  .work-proc2-bg-block{
+    background: #2ed069;
+    height: 200px;
+    margin-left: 60px;
+    width: 200px;
+    -webkit-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -khtml-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -moz-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -ms-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    -o-transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+    transition: background 0.27s cubic-bezier(0.3, 0.1, 0.58, 1) 0s;
+   }
+  .border-bot{
+    border-bottom: 3px solid black;
+  }
 }
 /* CONTACT
  ========================================================================== */
