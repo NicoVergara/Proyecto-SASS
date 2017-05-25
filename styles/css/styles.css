@@ -219,6 +219,8 @@ body {
 
 #contact-form {
   margin-top: 10px; }
+  #contact-form textarea {
+    margin-top: 10px; }
 
 .form-control {
   border-radius: 0;
