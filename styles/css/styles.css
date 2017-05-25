@@ -85,7 +85,8 @@ body {
   top: 7px;
   left: 0;
   color: #2a2b2f;
-  font-size: 36px; }
+  font-size: 36px;
+  top: 23px; }
 
 .box {
   margin-top: 25px; }
