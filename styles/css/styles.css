@@ -29,6 +29,8 @@ body {
 .pg-about {
   padding-top: 100px;
   padding-bottom: 100px; }
+  .pg-about img {
+    max-height: 500px; }
 
 .mt-section {
   margin-top: 80px; }
@@ -39,7 +41,8 @@ body {
 .main-title {
   font-size: 50px;
   font-weight: 300;
-  line-height: 50px; }
+  line-height: 50px;
+  margin-top: 92px; }
 
 /* TEAM
  ========================================================================== */
