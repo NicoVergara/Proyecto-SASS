@@ -51,6 +51,15 @@ body {
  ========================================================================== */
 .member {
   text-align: center;
+
+  .member-image{
+
+    .img-circle{
+      border: 4px solid #6b6d6f;
+      border-radius: 50%;
+      padding: 10px;
+    }
+  }
 }
 
 .team-social {
