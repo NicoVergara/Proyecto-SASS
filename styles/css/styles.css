@@ -212,6 +212,23 @@ body {
   margin: 0;
   font-size: 13px; }
 
+.form-control {
+  border-radius: 0;
+  height: auto;
+  box-shadow: none !important; }
+
+input, textarea, select, .login-select, .form-control {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  background: transparent;
+  color: #2a2b2f;
+  font-size: 13px;
+  margin: 0;
+  outline: medium none;
+  padding: 8px 20px 8px 0; }
+
 .send-button {
   font-size: 12px;
   color: #fff;

@@ -16,6 +16,7 @@ body {
   -webkit-font-smoothing: antialiased !important;
   -webkit-text-size-adjust: 100% !important;
 }
+
 /* NAV
  ========================================================================== */
 /* ABOUT
@@ -45,6 +46,7 @@ body {
   font-weight: 300;
   line-height: 50px;
 }
+
 /* TEAM
  ========================================================================== */
 .member {
@@ -70,6 +72,7 @@ body {
     }
   }
 }
+
 /* SERVICES
  ========================================================================== */
 .services {
@@ -101,6 +104,7 @@ body {
 .box {
   margin-top: 25px;
 }
+
 /* WORK PROCESS
  ========================================================================== */
 .pt-work {
@@ -220,6 +224,7 @@ body {
     border-bottom: 3px solid black;
   }
 }
+
 /* CONTACT
  ========================================================================== */
 .contact {}
@@ -268,6 +273,25 @@ body {
   font-size: 13px;
 }
 
+.form-control{
+  border-radius: 0;
+  height: auto;
+  box-shadow: none !important;
+}
+
+input, textarea, select, .login-select, .form-control {
+  font-family: 'Montserrat', sans-serif;
+  border: none;
+  border-bottom: 1px solid #ccc;
+  border-radius: 0px;
+  background: transparent;
+  color: #2a2b2f;
+  font-size: 13px;
+  margin: 0;
+  outline: medium none;
+  padding: 8px 20px 8px 0;
+}
+
 .send-button {
   font-size: 12px;
   color: #fff;
@@ -281,6 +305,7 @@ body {
   border-radius: 4px;
   letter-spacing: 0.5px;
 }
+
 /* FOOTER
  ========================================================================== */
 .footer {
