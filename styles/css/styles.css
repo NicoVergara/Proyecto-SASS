@@ -25,6 +25,17 @@ body {
   display: block;
   position: relative;
   overflow: hidden; }
+  .about .title-content {
+    position: relative;
+    padding: 10px 10px 10px 55px;
+    margin-bottom: 7px; }
+  .about .box-about {
+    margin-top: 25px; }
+    .about .box-about .box-icon-about {
+      position: absolute;
+      left: 0;
+      font-size: 36px;
+      top: 28px; }
 
 .pg-about {
   padding-top: 100px;
@@ -81,7 +92,6 @@ body {
 
 .box-icon {
   position: absolute;
-  top: 7px;
   left: 0;
   color: #ffffff;
   font-size: 36px;

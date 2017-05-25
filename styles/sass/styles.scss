@@ -26,6 +26,20 @@ body {
     display: block;
     position: relative;
     overflow: hidden;
+    .title-content{
+      position: relative;
+      padding: 10px 10px 10px 55px;
+      margin-bottom: 7px;
+    }
+    .box-about{
+      margin-top: 25px;
+    .box-icon-about{
+      position: absolute;
+      left: 0;
+      font-size: 36px;
+      top:28px;
+    }
+    }
   }
 
   .pg-about {
@@ -104,7 +118,6 @@ body {
 
 .box-icon {
   position: absolute;
-  top: 7px;
   left: 0;
   color: #ffffff;
   font-size: 36px;
