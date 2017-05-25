@@ -212,6 +212,9 @@ body {
   margin: 0;
   font-size: 13px; }
 
+#contact-form {
+  margin-top: 10px; }
+
 .form-control {
   border-radius: 0;
   height: auto;
@@ -259,6 +262,8 @@ input, textarea, select, .login-select, .form-control {
   font-size: 16px;
   color: #2a2b2f;
   text-decoration: none; }
+  .footer-social a:hover {
+    color: #747474; }
 
 .right {
   float: right; }
