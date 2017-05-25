@@ -9,7 +9,7 @@ body {
   vertical-align: baseline;
   font-size: 14px;
   line-height: 25px;
-  font-family: 'Montserrat',Arial, Helvetica, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: normal;
   color: #6b6d6f;
   background-color: #fff;
@@ -227,7 +227,9 @@ body {
 
 /* CONTACT
  ========================================================================== */
-.contact {}
+.contact {
+
+}
 
 .pg-contact {
   /*padding-top: 10px;*/
