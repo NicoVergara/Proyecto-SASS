@@ -70,6 +70,7 @@ body {
  ========================================================================== */
 .services {
   width: 100%;
+  margin-top: 50px;
   display: block;
   position: relative;
   overflow: hidden; }
@@ -78,31 +79,34 @@ body {
   padding-top: 100px;
   padding-bottom: 100px; }
 
-.title-content {
-  position: relative;
-  padding: 10px 10px 10px 55px;
-  margin-bottom: 7px; }
-
 .box-icon {
   position: absolute;
   top: 7px;
   left: 0;
-  color: #2a2b2f;
+  color: #ffffff;
   font-size: 36px;
   top: 23px; }
 
 .box {
   margin-top: 25px; }
+  .box .section-title2 {
+    color: #EFECE4; }
+  .box .title-content {
+    position: relative;
+    padding: 10px 10px 10px 55px;
+    margin-bottom: 7px;
+    color: #EFECE4; }
+  .box .tab-text {
+    color: #EFECE4; }
 
 /* WORK PROCESS
  ========================================================================== */
 .pt-work {
-  padding-top: 40px;
   padding-bottom: 40px; }
 
 .back-style-cont {
   background-color: #eeeeee;
-  padding: 50px 0; }
+  padding: 65px 0; }
 
 .work-proc2-cont {
   margin: 0 auto;
